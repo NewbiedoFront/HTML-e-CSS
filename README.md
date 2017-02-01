@@ -9,3 +9,8 @@
 * [ ] 2° [HTML5 e CSS3 II: Turbinando as suas páginas](https://www.alura.com.br/curso-online-avancando-html-css "Curso II - Intermediario")
 * [ ] 3° [Web Design Responsivo:](https://www.alura.com.br/curso-online-web-design-responsivo "Curso de RWD")
 * [ ] 4° [Flexbox: Tudo sobre Posicionamento](https://www.alura.com.br/curso-online-posicione-elementos-com-flexbox "Curso de flexbox")
+
+===
+
+* [ ] 5° [Chrome DevTools:](https://www.alura.com.br/curso-online-chrome-devtools "Devtools - inspecionando e depurando páginas Web")
+* [ ] 6° [Introdução ao HTTP: Entenda o Básico da Web](https://www.alura.com.br/curso-online-fundamentos-http "Entendendo o Básico de HTTP")

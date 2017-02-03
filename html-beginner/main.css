@@ -1,0 +1,29 @@
+body {
+	width: 980px;
+	margin: 30px auto;
+	padding: 10px;
+	font-family: sans-serif;
+}
+header {
+	text-align: center;
+}
+nav .navbar li {
+	display: inline;
+}
+.navbar a {
+	margin: 15px;
+	padding: 3px;
+}
+h2 {
+	background-color: #8aca64;
+	color: #fff;
+	padding: 5px;
+}
+table {
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+th {
+	background-color: #ccc;
+}

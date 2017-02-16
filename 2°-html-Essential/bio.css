@@ -7,12 +7,16 @@ main h1 {
 	padding: 20px;
 	margin: 0;
 }
+main a {
+	color: #851944;
+}
 h2 {
-	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	font-family: "Open Sans Condensed", sans-serif;
 	font-size: 40px;
 }
 p {
 	text-align: justify;
+	margin: 30px 0;
 }
 blockquote {
 	background-color: #d3ddda;
@@ -22,4 +26,32 @@ blockquote {
 	margin: 0;
 	box-sizing: border-box;
 	text-align: right;
+}
+strong {
+	font-weight: 600;
+}
+em {
+	font-style: italic;
+}
+aside {
+	background-color: #3C1D3D;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+nav h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+nav a {
+	color: inherit;
+}
+aside li {
+	display: inline-block;
+}
+footer {
+	background-color: #000;
+	color: #f2fffc;
+	padding: 20px;
 }

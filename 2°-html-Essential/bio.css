@@ -47,7 +47,7 @@ nav h1 {
 nav a {
 	color: inherit;
 }
-aside li {
+.social-icons li {
 	display: inline-block;
 }
 footer {

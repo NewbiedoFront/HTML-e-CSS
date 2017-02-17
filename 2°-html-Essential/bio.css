@@ -4,6 +4,14 @@ body {
 	font-size: 20px;
 	line-height: 1.5;
 }
+main {
+	width: 80%;
+	float: left;
+}
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
 main h1 {
 	background-color: #851944;
 	color: #f4f4f4;
@@ -13,6 +21,7 @@ main h1 {
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
+	border-bottom: 10px solid #000;
 }
 main a {
 	color: #851944;
@@ -20,6 +29,7 @@ main a {
 h2 {
 	font-family: "Open Sans Condensed", sans-serif;
 	font-size: 40px;
+	clear: both;
 }
 p {
 	text-align: justify;
@@ -40,12 +50,31 @@ strong {
 em {
 	font-style: italic;
 }
+.fiat {
+	float: right;
+}
+.petrobras {
+	float: left;
+}
+img {
+	min-width: 260px; 
+}
 aside {
+	font-family: "Open Sans Condensed", sans-serif;
 	background-color: #3C1D3D;
 	color: #fff;
 	text-align: center;
 	padding: 20px;
-	font-family: "Open Sans Condensed", sans-serif;
+	clear: right;
+	box-sizing: border-box;
+}
+aside, img {
+	width: 15%;
+	float: right;
+	border-style: solid;
+	border-color: #000;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
 }
 nav h1 {
 	font-size: 30px;
@@ -76,4 +105,5 @@ footer {
 	background-color: #000;
 	color: #f2fffc;
 	padding: 20px;
+	clear: both;
 }

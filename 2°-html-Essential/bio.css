@@ -5,12 +5,13 @@ body {
 	line-height: 1.5;
 }
 main {
-	width: 80%;
+	width: 85%;
 	float: left;
 }
 .container {
 	margin: 0 auto;
-	width: 940px;
+	width: 700px;
+	padding-bottom: 80px;
 }
 main h1 {
 	background-color: #851944;
@@ -41,6 +42,8 @@ blockquote {
 	border: 10px solid #c2ccca;
 	width: 250px;
 	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	box-sizing: border-box;
 	text-align: right;
 }
@@ -52,12 +55,17 @@ em {
 }
 .fiat {
 	float: right;
+	margin-left: 40px;
 }
 .petrobras {
 	float: left;
+	margin-right: 40px;
 }
-img {
-	min-width: 260px; 
+.my-photo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 310px; 
 }
 aside {
 	font-family: "Open Sans Condensed", sans-serif;
@@ -66,15 +74,16 @@ aside {
 	text-align: center;
 	padding: 20px;
 	clear: right;
-	box-sizing: border-box;
-}
-aside, img {
 	width: 15%;
+	position: relative;
+	top: 310px;
+}
+aside, 
+.my-photo {
 	float: right;
-	border-style: solid;
-	border-color: #000;
-	border-bottom-width: 10px;
-	border-left-width: 10px;
+	box-sizing: border-box;
+	border-left: 10px solid #000;
+	border-bottom: 10px solid #000;
 }
 nav h1 {
 	font-size: 30px;
@@ -82,6 +91,7 @@ nav h1 {
 }
 nav a {
 	color: inherit;
+	text-transform: lowercase;
 }
 .social-icons li {
 	display: inline-block;
@@ -106,4 +116,7 @@ footer {
 	color: #f2fffc;
 	padding: 20px;
 	clear: both;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
 }

@@ -1,19 +1,19 @@
 blockquote {
 	background-color: #d3ddda;
-	padding: 16px;
-	border: 10px solid #c2ccca;
-	width: 250px;
+	border: .6em solid #c2ccca;
+	padding: .85em;
+	width: 15.6em;
 	margin: 0;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
 	box-sizing: border-box;
 	text-align: right;
 }
 .fiat {
 	float: right;
-	margin-left: 40px;
+	margin-left: 2.5em;
 }
 .petrobras {
 	float: left;
-	margin-right: 40px;
+	margin-right: 2.5em;
 }

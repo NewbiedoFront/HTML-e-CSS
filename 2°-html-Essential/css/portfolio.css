@@ -1,11 +1,11 @@
 .thumbnail li {
 	display: inline-block;
-	border: 8px solid #000;
-	width: 330px;
+	border: .5rem solid #000;
+	width: 17em;
 	box-sizing: border-box;
-	padding: 16px;
-	margin-right: 16px;
-	margin-bottom: 16px;
+	padding: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
 }
 .thumbnail-photo {
 	width: 100%;

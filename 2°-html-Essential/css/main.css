@@ -84,13 +84,13 @@ nav a {
 	text-indent: -9999px;
 }
 .github {
-		background-image: url(img/github.png);
+		background-image: url(../img/github.png);
 }
 .twitter {
-		background-image: url(img/twitter.png);
+		background-image: url(../img/twitter.png);
 }
 .linkedin {
-	background-image: url(img/linkedin.png);
+	background-image: url(../img/linkedin.png);
 }
 footer {
 	background-color: rgba(0,0,0, .9);

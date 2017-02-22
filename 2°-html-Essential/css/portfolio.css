@@ -1,4 +1,8 @@
+.thumbnail {
+	margin-bottom: 2rem;
+}
 .thumbnail li {
+	background-color: #FAFFFC;
 	display: inline-block;
 	border: .5rem solid #000;
 	width: 17em;

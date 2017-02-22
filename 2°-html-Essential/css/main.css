@@ -12,12 +12,12 @@ main {
 	margin: 0 auto;
 	width: 37em;
 	padding-bottom: 5rem;
+	padding: 1.87rem;
 }
 h1,
 h2,
 aside {
 	font-family: "Open Sans Condensed", sans-serif;
-	text-shadow: .05em .07em .09em #000;
 }
 
 main h1 {
@@ -29,6 +29,9 @@ main h1 {
 	text-align: center;
 	text-transform: uppercase;
 	border-bottom: .635rem solid #000;
+}
+h1 {
+		text-shadow: .05em .07em .09em #000;
 }
 main a {
 	color: #851944;
@@ -96,7 +99,7 @@ nav a {
 .linkedin {
 	background-image: url(../img/linkedin.png);
 }
-footer {
+.main-footer {
 	background-color: rgba(0,0,0, .9);
 	color: #f2fffc;
 	padding: 1.25rem;

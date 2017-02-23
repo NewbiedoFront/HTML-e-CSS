@@ -13,23 +13,96 @@ header {
 .my-name {
 	font-size: 2.5em;
 }
-h2 {
+header h2 {
 	font-size: 1em;
 	color: #fff;
 	text-align: center;
 	text-shadow: .1em .1em #000;
 }
-.saudacao p {
-	color: #99a;
+.saudacao {
 	line-height: 1;
-	padding: 2rem;
+	color: #889;
+	font-size: 2em;
 }
 .saudacao-inicio {
+	padding: 1rem;
 	font-size: 3em;
-	color: #889;
+	color: #99a;
 }
-section {
+.saudacao-subname {
+	color: #000;
+	font-size: 200%;
+}
+.saudacao-ultima-linha {
+	display: block;
+	text-align: right;
+}
+.saudacao-sites {
+	font-size: 300%;
+	color: #851944;
+}
+.btn-index {
+	background-color: #851944;
+	color: #fff;
+	padding: 1.5rem;
+	border: .3rem solid #000;
+	text-align: center;
+	width: 30%;
+	margin-bottom: 4rem;
+	cursor: pointer;
+	font-size: .9em;
+	-webkit-border-radius: 15px 0;
+	-moz-border-radius: 15px 0;
+	-ms-border-radius: 15px 0;
+	-o-border-radius: 15px 0;
+	border-radius: 15px 0;
+}
+.btn-index a {
+	color: #fff;
+}
+.secao-inicio {
 	text-align: center;
 	padding: 2rem;
-	margin: 2rem;
+}
+.jobs {
+	background-color: #3C1D3D;
+	padding: 2rem 2rem;
+	border-top: .5rem solid #000;
+	border-bottom: .5rem solid #000;
+}
+.jobs h2,
+.blog h2 {
+	font-size: 260%;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 2rem;
+	margin: 1rem;
+}
+.jobs ul {
+	border: .5rem solid #000;
+	overflow: hidden;
+	margin-bottom: 6rem;
+}
+.jobs li {
+	float: left;
+	width: 33.333%;
+}
+li img {
+	width: 100%;
+	display: block;
+}
+.blog {
+	background-color: #999;
+	color: #fff;
+	position: relative;
+}
+.blog h2 {
+	text-align: left;
+}
+.blog small {
+	display: inline-block;
+	position: absolute;
+	text-align: left;
+	top: 8rem;
+	left: 3rem;
 }

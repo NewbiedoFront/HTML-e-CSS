@@ -48,7 +48,7 @@ header h2 {
 	border: .3rem solid #000;
 	text-align: center;
 	width: 30%;
-	margin-bottom: 4rem;
+	margin: 4rem 0;
 	cursor: pointer;
 	font-size: .9em;
 	-webkit-border-radius: 15px 0;
@@ -81,7 +81,7 @@ header h2 {
 .jobs ul {
 	border: .5rem solid #000;
 	overflow: hidden;
-	margin-bottom: 6rem;
+	margin-bottom: 2rem;
 }
 .jobs li {
 	float: left;
@@ -105,4 +105,11 @@ li img {
 	text-align: left;
 	top: 8rem;
 	left: 3rem;
+}
+.blog ol {
+	margin: 2rem 1rem;
+
+}
+.blog li {
+	text-align: left;
 }

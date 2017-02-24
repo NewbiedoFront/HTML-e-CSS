@@ -31,11 +31,12 @@ header h2 {
 }
 .saudacao-subname {
 	color: #000;
-	font-size: 200%;
+	font-size: 150%;
 }
 .saudacao-ultima-linha {
 	display: block;
 	text-align: right;
+	padding-top: 1.5rem;
 }
 .saudacao-sites {
 	font-size: 300%;
@@ -56,9 +57,17 @@ header h2 {
 	-ms-border-radius: 15px 0;
 	-o-border-radius: 15px 0;
 	border-radius: 15px 0;
+	box-shadow: inset 0 0 1rem #000;
+	text-shadow: 0 .1rem .1rem #000;
+	transition: ease-in-out .3s;
 }
 .btn-index a {
 	color: #fff;
+}
+.btn-index:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 1rem #000;
+	text-shadow: 0 .1rem .1rem #000;
 }
 .secao-inicio {
 	text-align: center;
@@ -73,10 +82,12 @@ header h2 {
 .jobs h2,
 .blog h2 {
 	font-size: 260%;
+	text-align: left;
 	text-transform: uppercase;
-	color: #fff;
+	text-shadow: 0 0 2rem #000;
 	padding-bottom: 2rem;
 	margin: 1rem;
+	color: #fff;
 }
 .jobs ul {
 	border: .5rem solid #000;
@@ -95,9 +106,6 @@ li img {
 	background-color: #999;
 	color: #fff;
 	position: relative;
-}
-.blog h2 {
-	text-align: left;
 }
 .blog small {
 	display: inline-block;
@@ -125,7 +133,7 @@ li img {
 	top: 2rem;
 	left: 25.8rem;
 	width: 60%;
-	height: 15%;
+	height: 18%;
 	padding: 5rem 3rem;
 	display: none;
 	background-color: #3C1D3D;
@@ -137,9 +145,10 @@ li img {
 	color: #fff;
 	cursor: pointer;
 }
-.blog li:hover .inicio-post,
-.blog li:focus .inicio-post {
+.blog li a:hover + .inicio-post,
+.blog li a:focus + .inicio-post {
 	display: block;
+	box-shadow: inset 0 0 1rem #000;
 }
 .inicio-post a {
 	text-decoration: none;

@@ -112,4 +112,41 @@ li img {
 }
 .blog li {
 	text-align: left;
+	width: 100%;
+}
+.blog li a {
+	padding: .5rem;
+	margin: .2rem 0;
+	width: 100%;
+	display: inline-block;
+}
+.inicio-post {
+	position: absolute;
+	top: 2rem;
+	left: 25.8rem;
+	width: 60%;
+	height: 15%;
+	padding: 5rem 3rem;
+	display: none;
+	background-color: #3C1D3D;
+	color: #fff;
+}
+.blog li a:hover,
+.blog li a:focus {
+	background-color: #3C1D3D;
+	color: #fff;
+	cursor: pointer;
+}
+.blog li:hover .inicio-post,
+.blog li:focus .inicio-post {
+	display: block;
+}
+.inicio-post a {
+	text-decoration: none;
+}
+.inicio-post a:hover {
+	text-decoration: underline;
+}
+.inicio-post a:visited {
+	color: #f3f3f3;
 }

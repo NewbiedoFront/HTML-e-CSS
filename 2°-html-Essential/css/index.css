@@ -4,6 +4,40 @@ header {
 	padding: 2rem;
 	color: #fff;
 	border-bottom: .5rem solid #000;
+	position: relative;
+}
+.keywords {
+	position: absolute;
+}
+.codigo-limpo {
+
+}
+.agilidade {
+
+}
+.responsivo {
+
+}
+.boas-praticas {
+
+}
+.css3 {
+
+}
+.acessibilidade {
+
+}
+.otimizacoes {
+
+}
+.javascript {
+
+}
+.design {
+
+}
+.html5 {
+
 }
 .photo-profile {
 	width: 200px;

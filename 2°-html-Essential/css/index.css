@@ -6,38 +6,83 @@ header {
 	border-bottom: .5rem solid #000;
 	position: relative;
 }
+.perspective-base {
+	position: absolute;
+	font-family: 'Shadows Into Light two', cursive;
+	text-shadow:  0.05em 0.07em 0.09em #000;
+	color: #D5447E;
+	font-size: 400%;
+	font-weight: bold;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
 .keywords {
 	position: absolute;
 }
 .codigo-limpo {
-
+	top: 30%;
+	opacity: .7;
+	-webkit-transform: rotate(-20deg) scale(.5) skew(-15deg);
+			transform: rotate(-20deg) scale(.5) skew(-15deg);
 }
 .agilidade {
-
+	top: 35%;
+	right: 5%;
+	opacity: .5;
+	-webkit-transform: rotate(20deg) scale(.5) skew(12deg);
+			transform: rotate(20deg) scale(.5) skew(12deg);
 }
 .responsivo {
-
+	bottom: 9%;
+	left: 20%;
+	-webkit-transform: rotate(-30deg) scale(.6) skew(-20deg);
+			transform: rotate(-30deg) scale(.6) skew(-20deg);
 }
 .boas-praticas {
-
+	bottom: -4%;
+	right: 15%;
+	opacity: .5;
+	-webkit-transform: rotate(10deg) scale(.4) skew(15deg);
+			transform: rotate(10deg) scale(.4) skew(15deg);
 }
 .css3 {
-
+	top: 10%;
+	right: 25%;
+	-webkit-transform: rotate(15deg) scale(.8) skew(-9deg);
+			transform: rotate(15deg) scale(.8) skew(-9deg);
 }
 .acessibilidade {
-
+	bottom: 9%;
+	left: 1%;
+	opacity: .4;
+	-webkit-transform: rotate(-14deg) scale(.5) skew(-27deg);
+			transform: rotate(-14deg) scale(.5) skew(-27deg);
 }
 .otimizacoes {
-
+	top: 45%;
+	right: 15%;
+	-webkit-transform: rotate(16deg) scale(.6) skew(29deg);
+			transform: rotate(16deg) scale(.6) skew(29deg);
 }
 .javascript {
-
+	top: 15%;
+	left: 20%;
+	-webkit-transform: rotate(-9deg) scale(.76) skew(10deg);
+			transform: rotate(-9deg) scale(.76) skew(10deg);
 }
 .design {
-
+	bottom: 2%;
+	right: 3%;
+	-webkit-transform: rotate(-13deg) scale(.78) skew(-15deg);
+			transform: rotate(-13deg) scale(.78) skew(-15deg);
 }
 .html5 {
-
+	top: 5%;
+	left: 5%;
+	-webkit-transform: rotate(-10deg) scale(.8) skew(-13deg);
+			transform: rotate(-10deg) scale(.8) skew(-13deg);
 }
 .photo-profile {
 	width: 200px;

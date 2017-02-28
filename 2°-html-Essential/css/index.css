@@ -1,6 +1,7 @@
 header {
 	text-align: center;
 	background-color: #851944;
+	background-image: linear-gradient(to top left, #3C1D3D 10%, transparent, rgba(0,0,109, .4) 82%);
 	padding: 2rem;
 	color: #fff;
 	border-bottom: .5rem solid #000;
@@ -251,3 +252,4 @@ li img {
 .inicio-post a:visited {
 	color: #f3f3f3;
 }
+file:///home/iury/Downloads/2%C2%B0%20HTML%20e%20CSS%20-%20Curso2%20do%20Alura/Exercicio2/index.html

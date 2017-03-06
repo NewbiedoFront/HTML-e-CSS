@@ -8,8 +8,15 @@
 * [x]  1° [HTML5 e CSS3 I: Primeiras páginas da Web](https://www.alura.com.br/curso-online-introducao-html-css "Curso I - Basico")
 * [ ]  2° [HTML5 e CSS3 II: Turbinando as suas páginas](https://www.alura.com.br/curso-online-avancando-html-css "Curso II - Intermediario")
 * [ ]  3° [Web Design Responsivo:](https://www.alura.com.br/curso-online-web-design-responsivo "Curso de RWD")
-* [ ]  4° [Flexbox: Tudo sobre Posicionamento](https://www.alura.com.br/curso-online-posicione-elementos-com-flexbox "Curso de flexbox")
-
+* [x]  4° [Flexbox: Tudo sobre Posicionamento](https://www.alura.com.br/curso-online-posicione-elementos-com-flexbox "Curso de flexbox da Alura")
+  
+  - * [x] 0. [Flexbox Froggy](http://flexboxfroggy.com/ "A game for learning CSS flexbox") ~ by [@thomaspark](https://github.com/thomaspark)
+  - * [x] 1. [Flexbox Defense](http://www.flexboxdefense.com/ "Another game for learning CSS flexbox :P") ~ by [@channingallen](https://github.com/channingallen)
+  - * [x] 2. [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "A Complete Guide to Flexbox") ~ by [@chriscoyier](https://github.com/chriscoyier)
+  - * [ ] 3. [Understanding Flexbox](https://medium.freecodecamp.com/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af#.4zy3sjcvg "Everything you need to know about flexbox") ~ by [@ohansemmanuel](https://medium.freecodecamp.com/@ohansemmanuel)
+   - * [ ] 3. [Flexbox por DPW ](http://desenvolvimentoparaweb.com/css/flexbox/ "Saiba mais sobre Flexbox através de explicações detalhadas e exemplos de código.") ~ by [@tarciozemel](https://github.com/tarciozemel)
+   - * [ ] 3. [How to use Flexbox](https://getflywheel.com/layout/how-to-use-flexbox-to-create-a-modern-card-design-layout/ "How to use Flexbox to create a modern card design layout.") ~ by [@abbeyfitzgerald](https://twitter.com/abbeyfitzgerald)
+  
 ===
 
 * [ ]  5° [Chrome DevTools:](https://www.alura.com.br/curso-online-chrome-devtools "Devtools - inspecionando e depurando páginas Web")

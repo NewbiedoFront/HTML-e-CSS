@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+header,
+article,
+aside,
+footer {
+  background: #f3f3f3;
+  border: 1px solid #000;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.nav-bar li {
+  padding: 10px 20px;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+main {
+  display: flex;
+}
+section {
+  margin:  5px 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid #000 1px;
+}
+article, aside {
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+aside {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aside-list {
+  align-self: center;
+  margin-top: 0;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+/* take a nap man! | sudo take a nap now! */
